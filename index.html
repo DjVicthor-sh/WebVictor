@@ -1,1 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Recetas</title>
+    
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+    }
+    
+    th,
+    td {
+      border: 3px solid rgb(0, 0, 0);
+      background-clip: padding-box;
+      text-align: center;
+      position: relative;
+    }
+    
+    header {
+        background: #4CAF50;
+        color: white;
+        padding: 10px ;
+        text-align: center;
+    }
+    
+    
+    nav, ul, li, a {
+        color: white;
+        text-decoration: none;
+        display: inline;
+        margin: 0 15px;
+        list-style: none;
+        padding: 0;
+    }
+    
+    
+    article {
+        background: #f4f4f4;
+        margin: 10px 0;
+        padding: 15px;
+        border-radius: 5px;
+    
+    }
+    
+    footer {
+        text-align: center;
+        padding: 10px 0;
+        background: #333;
+        color: white;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    
+        font-family:Georgia;
+        font-size: 0.5em;
+    
+    }
+    
+    section {
+        padding: 25%;
+    }
+    #inicio{
+        text-align: center;
+        background-image: url(https://www.academiatv.es/wp-content/uploads/2022/09/KARLOS-ARGUINANO-BODEGA-1-scaled-e1662718382563.jpg);
+        position: relative;
+        background-attachment: fixed;
+        background-position: top;
+        background-repeat: no-repeat;
+        image-resolution: initial;
+        background-size: cover;
+    }
+    #recetas{
+        text-align: center;
+        background-image: url(https://nosvolveremosaver.com/wp-content/uploads/2021/06/Betanzos-8.jpg);
+        position: relative;
+        background-attachment: fixed;
+        background-position: top;
+        background-repeat: no-repeat;
+        image-resolution: initial;
+        background-size: cover;
+    }
+    
+    #ingredientes {
+        position: relative; 
+        margin: 0 auto; 
+        width: fit-content; 
+    }
+    
+    .prep{
+        color: black;
+        position: relative;
+    }
+    
+    .com {
+        border: 1px solid white;
+        border-radius: 15px;
+        padding: 3px 8px;
+      }
+    
+    .bbr{
+        color: black;
+        background-color: #4CAF50;
+        border-radius: 5px ;
+        list-style-type: circle;
+    }
+    
+    
+    
+    .anim:hover{
+        border-radius: 5px;
+        background-color: white;
+        color: black;
+    }
+    </style>
 
+<body>
+    <header>
+        <h1>Blog de Recetas</h1>
+        <nav>
+            <ul>
+                <li><a class="anim" href="#inicio">Inicio</a></li>
+                <li><a class="anim" href="#recetas">Recetas</a></li>
+                <li><a class="anim" href="#footer">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Inicio</h2>
+            <ul class="bbr">
+                <li class="bbr">Buenas</li>
+                <li class="bbr">Bonitas</li>
+                <li class="bbr">Y... Ricas</li>
+            </ul>
+    </section>
+    <section id="recetas">       
+        <article>
+            <h3>Tortilla de Betanzos</h3>
+        </article>
+        <!--Ingradientes-->
+        <article>
+            <div id="ingredientes">
+                <table>
+                    <tr>
+                        <th colspan="2" id="celda">Ingredientes</th>
+                    </tr>
+
+                    <tr>
+                        <th class="celda">Cantidad</th>
+                        <th class="celda">Ingrediente</th>
+                    </tr>
+
+                    <tr>
+                        <td class="celda">4-5 </td>
+                        <td class="celda">Huevos grandes</td>
+                    </tr>
+
+                    <tr>
+                        <td class="celda">4-5</td>
+                        <td class="celda">Patatas medianas</td>
+                    </tr>
+
+                    <tr>
+                        <td class="celda">Al gusto</td>
+                        <td class="celda">Cebolla</td>
+                    </tr>
+
+                    <tr>
+                        <td class="celda">Al gusto</td>
+                        <td class="celda">Sal</td>
+                    </tr>
+
+                    <tr>
+                        <td class="celda">Abundante</td>
+                        <td class="celda">Aceite de oliva</td>
+                    </tr>
+                </table>
+            </div>
+        </article>
+        <article>
+            <div id="preparacion">
+                <h2>Preparación</h2>
+                   <h1>Preparar las patatas</h1> 
+                    <p>Pela las patatas y córtalas en rodajas finas o en dados pequeños, según tu preferencia. Si decides usar cebolla, pélala y córtala en juliana.</p>
+                    <br>
+                    <h1>Freír las patatas</h1>
+                    <p>Calienta una buena cantidad de aceite de oliva en una sartén grande a fuego medio. Añade las patatas (y la cebolla, si la usas) y cocina a fuego lento, removiendo de vez en cuando, hasta que estén tiernas pero no doradas. Esto puede tardar entre 15 y 20 minutos. Una vez cocidas, escúrrelas para eliminar el exceso de aceite.</p>
+                    <br>
+                    <h1>Batir los huevos</h1>
+                    <p>En un bol grande, bate los huevos y añade una pizca de sal. Incorpora las patatas (y la cebolla) a los huevos batidos, mezclando bien para que se impregnen.</p>
+                    <br>
+                    <h1>Cocinar la tortilla</h1>
+                    <p>En la misma sartén, retira el exceso de aceite, dejando solo un poco para que no se pegue. Vierte la mezcla de huevos y patatas en la sartén a fuego medio. Cocina durante unos 3-4 minutos, o hasta que veas que los bordes empiezan a cuajar.</p>
+                    <br>
+                    <h1>Dar la vuelta a la tortilla</h1>
+                    <p>Con ayuda de un plato grande o una tapa, voltea la tortilla con cuidado. Cocina por el otro lado durante otros 3-4 minutos. Si prefieres el centro más jugoso, puedes reducir el tiempo de cocción.</p>
+                    <br>
+                    <h1>Servir</h1>
+                    <p>Una vez cocida a tu gusto, retira la tortilla de la sartén y deja que repose unos minutos. Puedes servirla caliente, a temperatura ambiente o incluso fría.</p>
+                    <br>
+                    
+            </div>
+        </article>       
+    </section>
+
+    <footer id="footer">
+        <div>
+            <br><br>
+            <form action="mailto:" id="form">
+              <fieldset>
+                <legend class="com">Comentarios</legend>
+                <br>
+                <!-- Puntos -->
+                <fieldset>
+                  <legend class="com">Puntuación</legend>
+                  <label for="1pt">1:</label>
+                  <input type="radio" name="puntos" id="1pt" />
+                  <label for="2pt">2:</label>
+                  <input type="radio" name="puntos" id="2pt" />
+                  <label for="3pt">3:</label>
+                  <input type="radio" name="puntos" id="3pt" />
+                  <label for="4pt">4:</label>
+                  <input type="radio" name="puntos" id="4pt" />
+                  <label for="5pt">5:</label>
+                  <input type="radio" name="puntos" id="5pt" />
+                </fieldset>
+                <!-- /Puntos -->
+                <br />
+                <!-- Comentario -->
+                <fieldset>
+                  <legend class="com">Comentario</legend>
+                  <textarea name="comentario" rows="6" cols="50">Escribe tú opinión:</textarea>
+                </fieldset>
+                <br>
+                <!--Direccion Postal-->
+                <fieldset>
+                    <legend class="com">Dirección</legend>
+                        <label for="Codigo_postal">Dir. Postal: </label>
+                        <input type="text" name="Codigo_postal" id="Codigo_postal" value="Calle, número, cod.postal">
+
+                </fieldset>
+                <!-- /Comentario -->
+                <br>
+                <button type="submit">Enviar comentario</button>
+              </fieldset>
+            </form>
+          </div>
+          <br>
+          <div id="redes">
+            <a href="https://www.instagram.com/">Instagram</a>
+            <a href="https://x.com/">Twitter</a>
+            <a href="https://es-es.facebook.com/">Facebook</a>
+          </div>
+    </footer>
+</body>
+</html>
